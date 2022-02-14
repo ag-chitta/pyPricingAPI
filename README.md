@@ -87,11 +87,6 @@ FOR A FULL LIST OF AVAILABLE APMCS PLEASE SEE  https://github.com/ag-chitta/pyPr
     
   Please verify if you have the correct required inputs, and your inputs have the correct shape.
 
-  OR
-
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Email Invalid" }`
-
 * **Sample Call:**
 ```
 curl -X GET https://k14y5popkj.execute-api.ap-south-1.amazonaws.com/stage/commodities?radius=60&place=Arani&type=current
