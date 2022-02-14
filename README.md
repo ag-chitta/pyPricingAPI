@@ -11,6 +11,8 @@ _As prices are manually entered, please be aware some typing errors issues may o
 
 For now, the use of the API is limited to some APMCs (public agricultural markets) in Tamil Nadu. Please open a new issue if you would like access to any specific APMC, region or state in India.
 
+FOR A FULL LIST OF APMCS, VIEW  
+
 * **URL**
 
   https://k14y5popkj.execute-api.ap-south-1.amazonaws.com/stage/commodities
