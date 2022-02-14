@@ -11,7 +11,7 @@ _As prices are manually entered, please be aware some typing errors issues may o
 
 For now, the use of the API is limited to some APMCs (public agricultural markets) in Tamil Nadu. Please open a new issue if you would like access to any specific APMC, region or state in India.
 
-FOR A FULL LIST OF AVAILABLE APMCS PLEASE SEE https://github.com/ag-chitta/pyPricingAPI/blob/6f065cae5747fef79723c1b7664d82029bc063a3/APMCs  
+FOR A FULL LIST OF AVAILABLE APMCS PLEASE SEE  
 
 * **URL**
 
