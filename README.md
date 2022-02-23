@@ -44,6 +44,17 @@ FOR A FULL LIST OF AVAILABLE APMCS PLEASE SEE  https://github.com/ag-chitta/pyPr
       * Set type='current' to only fetch the latest updated price fo the available commodity markets within the selected place/radius
   
    
+   
+   
+   **State or National level data**
+   
+   It is possible to change the place locator to a state or national level, e.g. 'TAMIL NADU' or 'India'. The API will return weekly averaged pricing data of all    the available APMCs 
+   
+   In case 'current' is type='current', the highest and lowest price APMC per commodity is returned in the object string.
+   
+   
+   
+   
    **Optional:**
  
    `output=String`. (ONLY for type=current) _be aware of the capital in 'String'_
@@ -69,6 +80,8 @@ FOR A FULL LIST OF AVAILABLE APMCS PLEASE SEE  https://github.com/ag-chitta/pyPr
    * You can filter the output by commodity on the server-side using: begins_with:String. E.g. 'Paddy' or 'Maize'. It is not possible to filter the data on any variety
    
 
+
+
 * **Success Response:**
   
   A succcess response will return the data as a JSON string.
@@ -79,13 +92,17 @@ FOR A FULL LIST OF AVAILABLE APMCS PLEASE SEE  https://github.com/ag-chitta/pyPr
     
     * "Latest reported prices: \n". indicate no listed APMCS have been found with the selected place/radius
     
- 
+
+
+
 * **Error Response:**
 
   * **Code:** 502 BAD GATEWAY <br />
     **Content:** `{ message : Internal server error" }`
     
   Please verify if you have the correct required inputs, and your inputs have the correct shape.
+
+
 
 * **Sample Call:**
 ```
