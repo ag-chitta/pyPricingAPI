@@ -4,7 +4,7 @@ The official chitta oracle (REST API)
 
 pyPricing is the public available oracle to fetch latest pricing data for several crops, using data from the official eNAM site (eNAM.gov.in), and other on-chain sources. 
 
-_As prices are manually entered, please be aware some typing errors issues may occur. However, the data is processed to remove outliers above 3 standard deviations._
+_As prices are manually entered, please be aware some typing errors issues may occur. However, the data is post-processed to remove outliers above 3 standard deviations._
 
 
 ## overview
